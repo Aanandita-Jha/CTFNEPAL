@@ -1,0 +1,10 @@
+  /* Default Style */
+  body{
+    background-color: bisque;
+  }
+    /* Media query for small screens */
+@media screen and (max-width:800px){
+    body{
+        background-color: salmon;
+    }
+}

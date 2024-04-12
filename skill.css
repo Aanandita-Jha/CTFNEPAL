@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+    height: 200px;
+    flex-wrap: row wrap;
+    overflow: scroll;
+  column-gap: 200;
+  row-gap: 200;
+  flex-flow:row ;
+  justify-content: space-between;
+  }
+  
+  .time {
+   
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+   ;
+  }
+  
+  .fl{
+    display: flex;
+    height: 200px;
+    flex-wrap: row wrap;
+    overflow: scroll;
+  column-gap: 200;
+  row-gap: 200;
+  flex-flow:row ;
+  justify-content: space-between;
+  }
+/* Defult style */
+body{
+    background-color: rgb(103, 231, 182);
+}
+b{
+    color: palevioletred;
+  }
+
+
+  /* Media query for small screens */
+@media screen and (max-width:800px){
+  body{ background-color: rgb(120, 120, 206);}
+  b{
+    color: rgb(189, 216, 68);
+  }
+}

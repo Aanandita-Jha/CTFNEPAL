@@ -1,0 +1,64 @@
+
+body {
+    background-color: rgb(236, 68, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Default Style */
+.full {
+    width: 60%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(70, 250, 175);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(176, 194, 228);
+    padding: 20px;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(238, 165, 202);
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: #19abff;
+}
+/* Media query for small screens */
+@media screen and (max-width:800px){
+    
+.full {
+    
+    background-color: rgb(247, 204, 113);
+   
+}
+.left {
+   
+    background-color: rgb(187, 245, 169);
+
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(155, 163, 199);
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: #efaff5;
+}
+}
